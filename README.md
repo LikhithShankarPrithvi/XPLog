@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
+# Hey there! 👋 I'm Likhith
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🚀 About Me
 
-## Get started
+**Backend Engineer @Wipro** passionate about building scalable solutions and exploring cutting-edge technologies. Currently on an exciting learning journey that's been transforming my approach to software development.
 
-1. Install dependencies
+## 🎯 What I'm Up To
 
-   ```bash
-   npm install
-   ```
+-   🔭 **Currently Building**: React Native app (taking mobile development to the next level!)
+-   🌱 **Learning Focus**: Advanced system design patterns and mobile app architecture
+-   💡 **Recent Achievement**: Built an AI-powered Chrome extension with real-time content processing
+-   🎮 **Fun Project**: Designed and implemented a complete chess game with custom logic
+-   📊 **Data Science**: Diving deep into recommendation systems and Bayesian modeling
 
-2. Start the app
+## 🛠️ Tech Arsenal
 
-   ```bash
-   npx expo start
-   ```
+### **Backend & APIs**
 
-In the output, you'll find options to open the app in a
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### **Frontend & Mobile**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-## Get a fresh project
+### **Languages & Tools**
 
-When you're ready, run:
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-```bash
-npm run reset-project
+## 🎯 2024 Learning Journey
+
+```
+Jan  → Started Data Structures & Algorithms deep dive
+Feb  → Mastered Low Level Design patterns
+Mar  → Built Chess Game with custom engine logic
+Apr  → Enhanced Frontend skills & built Todo App
+May  → Developed SmartBundle recommendation engine (Python + Bayesian)
+Jun  → Created AI Chrome Extension with OpenAI integration
+Jul  → Started Habit Tracking full-stack app (paused for new project)
+Now  → Building React Native app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🏗️ Featured Projects
 
-## Learn more
+### 🤖 **Falcon AI Chrome Extension**
 
-To learn more about developing your project with Expo, look at the following resources:
+AI-powered browser sidebar with real-time content processing and OpenAI integration
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+-   **Tech**: JavaScript, Chrome APIs, OpenAI GPT, DOM manipulation
+-   **Features**: Content summarization, natural language processing, contextual assistance
 
-## Join the community
+### 📦 **SmartBundle Recommendation Engine**
 
-Join our community of developers creating universal apps.
+Intelligent product bundling system using Bayesian principles for e-commerce optimization
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-   **Tech**: Python, FastAPI, React, Bayesian modeling
+-   **Impact**: Optimizes cross-sell potential and AOV uplift through synergy scoring
+
+### ♟️ **Chess Game Engine**
+
+Complete chess implementation with custom game logic and move validation
+
+-   **Tech**: Object-oriented design, game algorithms, design patterns
+-   **Learning**: Deep dive into LLD principles and software architecture
+
+## 🎯 Current Goals
+
+-   🚀 Master React Native and mobile app development
+-   🧠 Contribute to open source projects (finally making it happen!)
+-   📈 Explore advanced system design and scalability patterns
+-   🔄 Seeking new opportunities for growth and impact
+
+## 📫 Let's Connect!
+
+-   🌐 **Portfolio**: [shaunlee.in](https://shaunlee.in)
+-   💼 **LinkedIn**: [/in/likhithprithvi](https://linkedin.com/in/likhithprithvi)
+-   🐦 **Twitter**: Drop me a message!
+-   📧 **Email**: prithvi.likhith@gmail.com
+
+---
+
+⚡ **Fun fact**: Went from data structures to AI extensions in one year – proof that consistent learning compounds! Currently obsessed with building things that solve real problems.
+
+![Profile Views](https://komarev.com/ghpvc/?username=LikhithShankarPrithvi&color=blue&style=flat-square)
