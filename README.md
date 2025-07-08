@@ -1,93 +1,224 @@
-# Hey there! 👋 I'm Likhith
+# 📱 XPLog - Task Management & Collaboration Platform
 
-## 🚀 About Me
+> **🚧 Work in Progress** - A React Native app for gamified task management and team collaboration
 
-**Backend Engineer @Wipro** passionate about building scalable solutions and exploring cutting-edge technologies. Currently on an exciting learning journey that's been transforming my approach to software development.
+## 🎯 Overview
 
-## 🎯 What I'm Up To
+XPLog is a modern task management platform that combines productivity with gamification. Built with React Native and Expo, it enables teams to create collaborative rooms, manage tasks, and track progress through an XP-based reward system.
 
--   🔭 **Currently Building**: React Native app (taking mobile development to the next level!)
--   🌱 **Learning Focus**: Advanced system design patterns and mobile app architecture
--   💡 **Recent Achievement**: Built an AI-powered Chrome extension with real-time content processing
--   🎮 **Fun Project**: Designed and implemented a complete chess game with custom logic
--   📊 **Data Science**: Diving deep into recommendation systems and Bayesian modeling
+**Current Status**: Frontend development complete • Backend integration in progress
 
-## 🛠️ Tech Arsenal
+## ✨ Features
 
-### **Backend & APIs**
+### 🏠 **Room-Based Collaboration**
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+-   Create and join rooms with unique codes
+-   Real-time member management
+-   Room-specific task boards and activity feeds
 
-### **Frontend & Mobile**
+### 📋 **Task Management**
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+-   Create tasks with descriptions and XP rewards
+-   Task claiming and completion system
+-   Status tracking (Available → Claimed → Completed)
 
-### **Languages & Tools**
+### 🎮 **Gamification System**
 
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+-   XP rewards for task completion
+-   User levels and progress tracking
+-   Activity logging and achievements
 
-## 🎯 2024 Learning Journey
+### 🎨 **Modern UI/UX**
+
+-   Clean, intuitive interface
+-   Dark/light theme support
+-   Responsive design for all screen sizes
+-   Smooth animations and transitions
+
+## 📸 Screenshots
+
+### Authentication Flow
+
+<div align="center">
+  <img src="assets/images/screenshots/AuthPanel.png" width="300" alt="Authentication Screen" />
+  <p><em>Login and Registration screens with modern UI</em></p>
+</div>
+
+### Home Dashboard
+
+<div align="center">
+  <img src="assets/images/screenshots/HomePanel.png" width="300" alt="Home Dashboard" />
+  <p><em>Main dashboard with room navigation and user stats</em></p>
+</div>
+
+### Room Management
+
+<div align="center">
+  <img src="assets/images/screenshots/Room Page.png" width="300" alt="Room Page" />
+  <p><em>Room dashboard with task overview, member list, and activity tabs</em></p>
+</div>
+
+### Task Creation
+
+<div align="center">
+  <img src="assets/images/screenshots/TaskModal.png" width="300" alt="Task Modal" />
+  <p><em>Task creation modal with title, description, and XP reward fields</em></p>
+</div>
+
+### Activity Feed
+
+<div align="center">
+  <img src="assets/images/screenshots/activityPanel.png" width="300" alt="Activity Panel" />
+  <p><em>Real-time activity feed showing task updates and user actions</em></p>
+</div>
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+
+-   **React Native** - Cross-platform mobile development
+-   **Expo Router** - File-based navigation system
+-   **TypeScript** - Type-safe development
+-   **React Hooks** - Modern state management
+
+### **Backend** (In Development)
+
+-   **API Integration** - RESTful services
+-   **Real-time Updates** - WebSocket connections
+-   **User Authentication** - Secure login system
+-   **Database** - Task and user data persistence
+
+## 🏗️ Project Structure
 
 ```
-Jan  → Started Data Structures & Algorithms deep dive
-Feb  → Mastered Low Level Design patterns
-Mar  → Built Chess Game with custom engine logic
-Apr  → Enhanced Frontend skills & built Todo App
-May  → Developed SmartBundle recommendation engine (Python + Bayesian)
-Jun  → Created AI Chrome Extension with OpenAI integration
-Jul  → Started Habit Tracking full-stack app (paused for new project)
-Now  → Building React Native app
+xplog/
+├── app/                    # Main app screens
+│   ├── (tabs)/            # Tab navigation screens
+│   ├── auth/              # Authentication screens
+│   ├── room/              # Room management screens
+│   └── _layout.tsx        # Root layout
+├── components/            # Reusable UI components
+├── constants/             # App constants and themes
+├── data/                  # Mock data and types
+├── hooks/                 # Custom React hooks
+└── assets/               # Images and resources
 ```
 
-## 🏗️ Featured Projects
+## 🚀 Current Implementation
 
-### 🤖 **Falcon AI Chrome Extension**
+### ✅ **Completed Features**
 
-AI-powered browser sidebar with real-time content processing and OpenAI integration
+-   [x] User authentication UI (Login/Register)
+-   [x] Room creation and joining interface
+-   [x] Task management system (CRUD operations)
+-   [x] XP and leveling system
+-   [x] Activity logging and feeds
+-   [x] Responsive design and theming
+-   [x] Navigation and routing
 
--   **Tech**: JavaScript, Chrome APIs, OpenAI GPT, DOM manipulation
--   **Features**: Content summarization, natural language processing, contextual assistance
+### 🔄 **In Progress**
 
-### 📦 **SmartBundle Recommendation Engine**
+-   [ ] Backend API integration
+-   [ ] Real-time data synchronization
+-   [ ] User authentication system
+-   [ ] Push notifications
+-   [ ] Data persistence
 
-Intelligent product bundling system using Bayesian principles for e-commerce optimization
+### 🎯 **Planned Features**
 
--   **Tech**: Python, FastAPI, React, Bayesian modeling
--   **Impact**: Optimizes cross-sell potential and AOV uplift through synergy scoring
+-   [ ] File attachments for tasks
+-   [ ] Task categories and filters
+-   [ ] Advanced user profiles
+-   [ ] Team analytics and reporting
+-   [ ] Mobile app deployment
 
-### ♟️ **Chess Game Engine**
+## 💻 Development Setup
 
-Complete chess implementation with custom game logic and move validation
+### Prerequisites
 
--   **Tech**: Object-oriented design, game algorithms, design patterns
--   **Learning**: Deep dive into LLD principles and software architecture
+```bash
+Node.js (v18 or higher)
+npm or yarn
+Expo CLI
+```
 
-## 🎯 Current Goals
+### Installation
 
--   🚀 Master React Native and mobile app development
--   🧠 Contribute to open source projects (finally making it happen!)
--   📈 Explore advanced system design and scalability patterns
--   🔄 Seeking new opportunities for growth and impact
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/xplog.git
+cd xplog
 
-## 📫 Let's Connect!
+# Install dependencies
+npm install
 
--   🌐 **Portfolio**: [shaunlee.in](https://shaunlee.in)
+# Start the development server
+npm start
+```
+
+### Running the App
+
+```bash
+# iOS Simulator
+npm run ios
+
+# Android Emulator
+npm run android
+
+# Web Browser
+npm run web
+```
+
+## 🎨 Design Highlights
+
+-   **Modern UI**: Clean, minimalist design with consistent spacing
+-   **Responsive Layout**: Adapts to different screen sizes seamlessly
+-   **Interactive Elements**: Smooth animations and haptic feedback
+-   **Color Theming**: Support for light and dark modes
+-   **Typography**: Consistent font hierarchy and readability
+
+## 📊 App Architecture
+
+```mermaid
+graph TB
+    A[App Shell] --> B[Authentication]
+    A --> C[Main Navigation]
+    C --> D[Home Screen]
+    C --> E[Room Screens]
+    E --> F[Task Management]
+    E --> G[Activity Feed]
+    F --> H[Task Modals]
+
+    I[Mock Data Layer] --> F
+    I --> G
+    I --> D
+
+    J[Backend API] -.-> I
+    J -.-> K[Real-time Updates]
+
+    style J fill:#f9f,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+    style K fill:#f9f,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+```
+
+## 🔮 Future Enhancements
+
+-   **Team Analytics**: Performance metrics and productivity insights
+-   **Advanced Gamification**: Badges, streaks, and achievements
+-   **Integration**: Calendar sync and third-party tool connections
+-   **Mobile Features**: Offline support and background notifications
+-   **Scaling**: Multi-tenant architecture for enterprise use
+
+## 👨‍💻 About the Developer
+
+**Likhith Shankar Prithvi** - Backend Engineer @Wipro  
+Currently exploring mobile development and building scalable solutions.
+
 -   💼 **LinkedIn**: [/in/likhithprithvi](https://linkedin.com/in/likhithprithvi)
--   🐦 **Twitter**: Drop me a message!
+-   🌐 **Portfolio**: [shaunlee.in](https://shaunlee.in)
 -   📧 **Email**: prithvi.likhith@gmail.com
 
 ---
 
-⚡ **Fun fact**: Went from data structures to AI extensions in one year – proof that consistent learning compounds! Currently obsessed with building things that solve real problems.
+⚡ **Status**: Active development • Frontend complete • Backend integration in progress
 
 ![Profile Views](https://komarev.com/ghpvc/?username=LikhithShankarPrithvi&color=blue&style=flat-square)
